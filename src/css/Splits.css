@@ -1,0 +1,20 @@
+.splits-grid {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1px;
+  border-color: white;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.header {
+  margin-top: 50px
+}
